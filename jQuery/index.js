@@ -1,3 +1,5 @@
-$("document").keydown(function(event) {
-    $("h1").text(event.key);
+$(document).ready(function() {
+    $("h1").on("mouseenter", function() {
+        $("h1").css("color", "purple");
+    });
 });
