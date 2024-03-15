@@ -72,3 +72,9 @@ $(document).on("keydown", function() {
         graRozpoczeta = true;
     }
 });
+
+/* ------------------------------------------------------------------------------------- */
+
+$("#pomoc-btn").click(function() {
+    $("#pomoc").toggle();
+})
